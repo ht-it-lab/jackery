@@ -100,7 +100,7 @@ entities:
     entity:
       consumption: sensor.battery_charge_power      # charging
       production: sensor.battery_discharge_power    # discharging
-    state_of_charge: sensor.battery_soc
+    state_of_charge: sensor.soc
     name: Battery
     icon: mdi:battery
   home:

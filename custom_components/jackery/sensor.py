@@ -36,6 +36,14 @@ SENSORS = {
         "device_class": SensorDeviceClass.BATTERY,
         "state_class": SensorStateClass.MEASUREMENT,
     },
+    "soc": {
+        "json_key": "soc",
+        "name": "SOC",
+        "unit": PERCENTAGE,
+        "icon": "mdi:battery-50",
+        "device_class": SensorDeviceClass.BATTERY,
+        "state_class": SensorStateClass.MEASUREMENT,
+    },
     "battery_charge_power": {
         "json_key": "batInPw",
         "name": "Battery Charge Power",
