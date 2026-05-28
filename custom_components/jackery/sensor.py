@@ -23,7 +23,7 @@ from . import DOMAIN
 _LOGGER = logging.getLogger(__name__)
 
 # 常量定义
-REQUEST_INTERVAL = 10  # 数据请求间隔（秒）
+REQUEST_INTERVAL = 5  # 数据请求间隔（秒）
 
 # 传感器配置
 SENSORS = {
