@@ -11,7 +11,8 @@
 集成提供以下丰富的传感器数据：
 
 #### 🔋 电池信息
-- **Battery SOC** (电池电量) - 单位：%
+- **SOC** (总电池电量，含扩展电池包) - 单位：%
+- **Battery SOC** (主机电量) - 单位：%
 - **Battery Charge Power** (电池充电功率) - 单位：W
 - **Battery Discharge Power** (电池放电功率) - 单位：W
 - **Battery Temperature** (电池温度) - 单位：°C

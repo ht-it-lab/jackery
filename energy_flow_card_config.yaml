@@ -10,7 +10,7 @@ entities:
     entity:
       consumption: sensor.jackery_calc_battery_charge_power
       production: sensor.jackery_calc_battery_discharge_power
-    state_of_charge: sensor.jackery_battery_soc
+    state_of_charge: sensor.jackery_soc
     display_state: two_way
     color_circle: true
   home:
